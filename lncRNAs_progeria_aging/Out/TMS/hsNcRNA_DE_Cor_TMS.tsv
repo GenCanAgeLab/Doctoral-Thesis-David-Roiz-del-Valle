@@ -1,0 +1,69 @@
+Sex	gene_id	gene_name	Change	nDETis	TisDE	medianLFC	gene_type	CorrDir	corrTissueN	corrTissues	medianEstimate
+Male	ENSMUSG00000091542	Gm17167	UP	9	Limb_muscle, Marrow, Lung, Pancreas, Mesenteric_adipose, Liver, Brain, Gonadal_adipose, Brown_adipose	2.326651048671577	lncRNA	1	8	Limb_muscle, Lung, Mesenteric_adipose, Skin, Liver, Brain, Gonadal_adipose, Brown_adipose	0.72047652748278
+Male	ENSMUSG00000072109	A530040E14Rik	UP	7	Marrow, Pancreas, Mesenteric_adipose, Skin, Liver, Spleen, Gonadal_adipose	1.0721718083781584	lncRNA	1	10	Limb_muscle, Marrow, Small_intestine, Kidney, Pancreas, Mesenteric_adipose, Skin, Liver, Spleen, Gonadal_adipose	0.7609623434920598
+Male	ENSMUSG00000121478	ENSMUSG00000121478	UP	6	Marrow, Lung, Pancreas, Mesenteric_adipose, Liver, Gonadal_adipose	1.836411668438497	lncRNA	1	6	Marrow, Lung, Pancreas, Mesenteric_adipose, Liver, Gonadal_adipose	0.7559990658030444
+Male	ENSMUSG00000021268	Meg3	DOWN	6	Heart, Pancreas, Mesenteric_adipose, Gonadal_adipose, WBC, Brown_adipose	-1.0035822934172431	lncRNA	-1	5	Heart, Pancreas, Mesenteric_adipose, WBC, Brown_adipose	-0.7600202629622685
+Male	ENSMUSG00000089652	Gm16025	UP	5	Marrow, Small_intestine, Lung, Pancreas, Gonadal_adipose	2.5565861487937296	lncRNA	1	6	Marrow, Small_intestine, Pancreas, Mesenteric_adipose, Spleen, Gonadal_adipose	0.8017275072874935
+Male	ENSMUSG00000121342	ENSMUSG00000121342	UP	5	Marrow, Lung, Pancreas, Mesenteric_adipose, Gonadal_adipose	2.2777513880968145	lncRNA	1	5	Marrow, Lung, Pancreas, Mesenteric_adipose, Gonadal_adipose	0.8272932015204233
+Male	ENSMUSG00000121482	ENSMUSG00000121482	UP	5	Marrow, Heart, Pancreas, Skin, Gonadal_adipose	1.6533376723800717	lncRNA	1	5	Marrow, Pancreas, Skin, Liver, Gonadal_adipose	0.728768217730378
+Male	ENSMUSG00000111481	Gm47652	UP	5	Small_intestine, Lung, Mesenteric_adipose, WBC, Brown_adipose	0.9096932870895	TEC	1	4	Small_intestine, Lung, WBC, Brown_adipose	0.5850553939222488
+Male	ENSMUSG00000121485	ENSMUSG00000121485	UP	4	Marrow, Small_intestine, Pancreas, Gonadal_adipose	0.633404358594852	lncRNA	1	7	Marrow, Small_intestine, Lung, Pancreas, Mesenteric_adipose, Skin, Gonadal_adipose	0.7609623434920598
+Female	ENSMUSG00000121478	ENSMUSG00000121478	UP	4	Marrow, Pancreas, Liver, Gonadal_adipose	2.772042023852185	lncRNA	1	6	Marrow, Small_intestine, Pancreas, Liver, Spleen, Gonadal_adipose	0.8736469673870968
+Male	ENSMUSG00000053541	Gvin-ps6	UP	4	Pancreas, Skin, Liver, Gonadal_adipose	1.18645143994823	unprocessed_pseudogene	1	6	Limb_muscle, Small_intestine, Pancreas, Skin, Liver, Gonadal_adipose	0.63663029752239
+Male	ENSMUSG00000063286	Gvin-ps7	UP	4	Limb_muscle, Pancreas, Liver, Gonadal_adipose	0.780824494827097	transcribed_unprocessed_pseudogene	1	6	Limb_muscle, Small_intestine, Pancreas, Liver, Gonadal_adipose, WBC	0.8079467012621506
+Male	ENSMUSG00000073902	Gvin3	UP	4	Limb_muscle, Pancreas, Skin, Gonadal_adipose	1.236818580009368	unprocessed_pseudogene	1	6	Limb_muscle, Lung, Pancreas, Skin, Liver, Gonadal_adipose	0.5913185143900787
+Male	ENSMUSG00000121500	ENSMUSG00000121500	UP	4	Lung, Brain, Gonadal_adipose, Brown_adipose	0.8502465560250592	lncRNA	1	6	Lung, Pancreas, Liver, Brain, Gonadal_adipose, Brown_adipose	0.7443796289849689
+Male	ENSMUSG00000084960	B430010I23Rik	DOWN	4	Small_intestine, Pancreas, Mesenteric_adipose, Gonadal_adipose	-0.742909599048811	lncRNA	-1	5	Small_intestine, Bone, Pancreas, Mesenteric_adipose, Gonadal_adipose	-0.7112141999707872
+Male	ENSMUSG00000095366	Gm21860	UP	4	Marrow, Pancreas, Liver, Gonadal_adipose	1.7511700575556772	lncRNA	1	5	Marrow, Pancreas, Liver, Spleen, Gonadal_adipose	0.6775267024212108
+Male	ENSMUSG00000108037	Gm44597	DOWN	4	Bone, Pancreas, Mesenteric_adipose, Gonadal_adipose	-0.7509953860705347	lncRNA	-1	5	Lung, Bone, Mesenteric_adipose, Spleen, Gonadal_adipose	-0.6565706694547585
+Male	ENSMUSG00000121463	Ccl19-ps2	UP	4	Limb_muscle, Pancreas, Liver, Gonadal_adipose	1.170415255360427	lncRNA	1	5	Limb_muscle, Heart, Pancreas, Liver, Gonadal_adipose	0.6964740092978174
+Female	ENSMUSG00000072844	G530011O06Rik	UP	4	Small_intestine, Lung, Pancreas, Liver	2.0785673276140715	lncRNA	1	4	Marrow, Small_intestine, Liver, Brain	0.7563225565351133
+Female	ENSMUSG00000089652	Gm16025	UP	4	Marrow, Small_intestine, Lung, Pancreas	4.321740073559684	lncRNA	1	1	Small_intestine	0.7807200583588266
+Female	ENSMUSG00000087107	AI662270	UP	3	Marrow, Pancreas, Liver	1.544941552171644	lncRNA	1	6	Limb_muscle, Marrow, Small_intestine, Kidney, Pancreas, Liver	0.8857308161238059
+Male	ENSMUSG00000075010	AW112010	UP	3	Marrow, Pancreas, Spleen	0.9197333928751298	lncRNA	1	6	Limb_muscle, Marrow, Small_intestine, Bone, Pancreas, Spleen	0.6624987835153264
+Male	ENSMUSG00000092178	Gm45351	UP	3	Pancreas, Gonadal_adipose, Brown_adipose	1.149243621896114	unprocessed_pseudogene	1	6	Small_intestine, Pancreas, Liver, Brain, Gonadal_adipose, Brown_adipose	0.5960564603382115
+Male	ENSMUSG00000043801	Oaz1-ps	DOWN	3	Pancreas, Mesenteric_adipose, Gonadal_adipose	-0.35705305060639525	processed_pseudogene	-1	5	Small_intestine, Kidney, Pancreas, Mesenteric_adipose, Gonadal_adipose	-0.7443796289849689
+Male	ENSMUSG00000073164	2410018L13Rik	UP	3	Pancreas, Mesenteric_adipose, Gonadal_adipose	1.9060654131384984	lncRNA	1	5	Marrow, Lung, Pancreas, Mesenteric_adipose, Gonadal_adipose	0.757235726235471
+Male	ENSMUSG00000076928	Trac	UP	3	Limb_muscle, Pancreas, Liver	0.9798547130481138	TR_C_gene	1	5	Limb_muscle, Pancreas, Liver, Spleen, Gonadal_adipose	0.7757025341650294
+Male	ENSMUSG00000092341	Malat1	DOWN	3	Limb_muscle, Pancreas, Mesenteric_adipose	-0.4555113529485495	lncRNA	-1	5	Limb_muscle, Small_intestine, Bone, Pancreas, Mesenteric_adipose	-0.6828838780646054
+Male	ENSMUSG00000107634	Gm36816	UP	3	Pancreas, Mesenteric_adipose, Gonadal_adipose	1.19515810717995	lncRNA	1	5	Limb_muscle, Pancreas, Mesenteric_adipose, Gonadal_adipose, Brown_adipose	0.7646473911603022
+Male	ENSMUSG00000113691	Gm38699	UP	3	Marrow, Pancreas, Gonadal_adipose	1.2439045562477478	unprocessed_pseudogene	1	5	Limb_muscle, Marrow, Pancreas, Mesenteric_adipose, Gonadal_adipose	0.727796914477878
+Female	ENSMUSG00000021268	Meg3	DOWN	3	Small_intestine, Pancreas, Gonadal_adipose	-0.8162746799547239	lncRNA	-1	4	Pancreas, Mesenteric_adipose, Spleen, Gonadal_adipose	-0.9499753372175616
+Female	ENSMUSG00000072109	A530040E14Rik	UP	3	Marrow, Pancreas, Liver	2.3307502549407237	lncRNA	1	4	Pancreas, Skin, Liver, Gonadal_adipose	0.8980444692108103
+Female	ENSMUSG00000087340	Gm15228	UP	3	Marrow, Pancreas, Liver	2.541431222015115	lncRNA	1	4	Marrow, Pancreas, Liver, Gonadal_adipose	0.8980444692108103
+Male	ENSMUSG00000073000	Gm10451	UP	3	Marrow, Mesenteric_adipose, Gonadal_adipose	1.2968138215693594	lncRNA	1	4	Marrow, Mesenteric_adipose, Skin, Gonadal_adipose	0.6819420806547012
+Male	ENSMUSG00000087412	Gm15501	UP	3	Pancreas, Mesenteric_adipose, Brown_adipose	1.1425455941204847	transcribed_processed_pseudogene	1	4	Limb_muscle, Heart, Pancreas, Mesenteric_adipose	0.6651511041177569
+Male	ENSMUSG00000092323	BB365896	DOWN	3	Pancreas, Mesenteric_adipose, Gonadal_adipose	-1.2286817919967612	lncRNA	-1	4	Heart, Pancreas, Mesenteric_adipose, Gonadal_adipose	-0.7554347719896961
+Male	ENSMUSG00000100862	Gm10925	DOWN	3	Pancreas, Mesenteric_adipose, Gonadal_adipose	-0.5300687012197894	unprocessed_pseudogene	-1	4	Limb_muscle, Pancreas, Mesenteric_adipose, Gonadal_adipose	-0.5674136671389811
+Male	ENSMUSG00000101111	Gm28437	DOWN	3	Pancreas, Mesenteric_adipose, Gonadal_adipose	-0.5787229563784673	unprocessed_pseudogene	-1	4	Limb_muscle, Pancreas, Mesenteric_adipose, Gonadal_adipose	-0.6411982942741812
+Male	ENSMUSG00000111080	Gm20300	DOWN	3	Pancreas, Mesenteric_adipose, Gonadal_adipose	-0.42009527192004265	lncRNA	-1	4	Pancreas, Mesenteric_adipose, Gonadal_adipose, WBC	-0.6372229472969126
+Female	ENSMUSG00000085786	Gm15987	UP	3	Marrow, Pancreas, Gonadal_adipose	2.231238951654194	lncRNA	1	3	Pancreas, Liver, Gonadal_adipose	0.8783100656536801
+Female	ENSMUSG00000091199	Gm2619	UP	3	Pancreas, Mesenteric_adipose, Gonadal_adipose	2.8469095610151425	lncRNA	1	3	Pancreas, Mesenteric_adipose, Gonadal_adipose	0.9728456051340169
+Male	ENSMUSG00000083443	Gm15519	UP	3	Pancreas, Mesenteric_adipose, Gonadal_adipose	1.8009073791834107	processed_pseudogene	1	3	Pancreas, Mesenteric_adipose, Gonadal_adipose	0.5896076269187872
+Male	ENSMUSG00000085786	Gm15987	UP	3	Limb_muscle, Pancreas, Gonadal_adipose	1.9891282845793972	lncRNA	1	3	Limb_muscle, Pancreas, Gonadal_adipose	0.7464079597450338
+Male	ENSMUSG00000091199	Gm2619	UP	3	Pancreas, Mesenteric_adipose, Gonadal_adipose	5.161939214198856	lncRNA	1	3	Pancreas, Mesenteric_adipose, Gonadal_adipose	0.8815138102947664
+Male	ENSMUSG00000101089	2610016A17Rik	UP	3	Pancreas, Mesenteric_adipose, Gonadal_adipose	1.5439756804775142	lncRNA	1	3	Pancreas, Mesenteric_adipose, Gonadal_adipose	0.7093716761366659
+Male	ENSMUSG00000106734	Gm20559	UP	3	Small_intestine, Pancreas, Gonadal_adipose	0.8436650335181218	lncRNA	1	3	Small_intestine, Pancreas, Gonadal_adipose	0.6725211994542417
+Male	ENSMUSG00000109674	Gm45470	DOWN	3	Pancreas, Mesenteric_adipose, Gonadal_adipose	-0.7440097709985655	lncRNA	-1	3	Pancreas, Mesenteric_adipose, Gonadal_adipose	-0.7922852486721204
+Male	ENSMUSG00000115240	Gm5144	UP	3	Pancreas, Mesenteric_adipose, Gonadal_adipose	1.836980565817319	lncRNA	1	3	Pancreas, Mesenteric_adipose, Gonadal_adipose	0.7535922481555749
+Female	ENSMUSG00000097415	AU020206	UP	3	Marrow, Pancreas, Brain	1.224318486076856	lncRNA	1	2	Marrow, Pancreas	0.9369808801177276
+Female	ENSMUSG00000120174	4931408D14Rik	DOWN	3	Pancreas, Mesenteric_adipose, Gonadal_adipose	-1.3117552769916003	lncRNA	-1	2	Limb_muscle, Liver	-0.8783100656536801
+Female	ENSMUSG00000095562	Gm55594	UP	3	Heart, Mesenteric_adipose, Gonadal_adipose	1.2729193843340505	lncRNA	1	1	Mesenteric_adipose	0.7319250547113999
+Male	ENSMUSG00000087107	AI662270	UP	3	Limb_muscle, Small_intestine, Pancreas	1.1226710320336124	lncRNA	-1	1	Mesenteric_adipose	-0.5214342450563025
+Male	ENSMUSG00000099759	1700030C10Rik	UP	2	Pancreas, Gonadal_adipose	1.0147724716664925	lncRNA	1	6	Limb_muscle, Small_intestine, Pancreas, Mesenteric_adipose, Brain, Gonadal_adipose	0.7102929380537265
+Male	ENSMUSG00000099881	2810013P06Rik	DOWN	2	Pancreas, Gonadal_adipose	-0.8348290942142076	lncRNA	-1	6	Limb_muscle, Small_intestine, Pancreas, Mesenteric_adipose, Gonadal_adipose, Brown_adipose	-0.6125555010749507
+Female	ENSMUSG00000063286	Gvin-ps7	UP	2	Pancreas, Liver	0.891559701551993	transcribed_unprocessed_pseudogene	1	5	Limb_muscle, Small_intestine, Pancreas, Liver, Gonadal_adipose	0.8783100656536801
+Female	ENSMUSG00000121342	ENSMUSG00000121342	UP	2	Mesenteric_adipose, Liver	2.0648732726351593	lncRNA	1	5	Marrow, Pancreas, Mesenteric_adipose, Liver, Gonadal_adipose	0.8076454080357874
+Male	ENSMUSG00000044285	Ubb-ps	DOWN	2	Pancreas, Gonadal_adipose	-0.5770953891611148	transcribed_processed_pseudogene	-1	5	Small_intestine, Lung, Kidney, Pancreas, Gonadal_adipose	-0.6117179129282417
+Male	ENSMUSG00000083111	Gm14421	UP	2	Pancreas, Gonadal_adipose	0.8533357697425118	unprocessed_pseudogene	1	5	Limb_muscle, Pancreas, Mesenteric_adipose, Gonadal_adipose, Brown_adipose	0.648568389610666
+Female	ENSMUSG00000096768	Gm47283	UP	1	Heart	1.4093811624370758	lncRNA	1	6	Limb_muscle, Marrow, Small_intestine, Mesenteric_adipose, Liver, Spleen	0.7807200583588266
+Male	ENSMUSG00000063171	Rps4l	DOWN	1	Skin	-3.2200828505336903	transcribed_processed_pseudogene	-1	6	Marrow, Lung, Skin, Liver, Spleen, WBC	-0.6741410683734748
+Female	ENSMUSG00000097705	Gm26740	DOWN	1	Marrow	-0.751397306382416	lncRNA	1	5	Small_intestine, Pancreas, Liver, Gonadal_adipose, Brown_adipose	0.8783100656536801
+Female	ENSMUSG00000121096	ENSMUSG00000121096	DOWN	1	Liver	-1.0909303921401194	lncRNA	-1	5	Small_intestine, Lung, Pancreas, Liver, Brain	-0.8295150620062532
+Male	ENSMUSG00000075511	1700001L05Rik	UP	1	Skin	0.7088574279360331	lncRNA	1	5	Small_intestine, Pancreas, Mesenteric_adipose, Skin, Gonadal_adipose	0.6633085802836357
+Male	ENSMUSG00000082292	Gm12250	UP	1	Lung	1.505175767807367	processed_pseudogene	1	5	Lung, Pancreas, Liver, Spleen, Gonadal_adipose	0.6815828854339874
+Male	ENSMUSG00000085433	Gm16001	UP	1	WBC	1.0861482676333447	lncRNA	1	5	Limb_muscle, Lung, Kidney, Pancreas, WBC	0.6467258657765448
+Male	ENSMUSG00000097099	Gm9917	DOWN	1	Liver	-0.550895532704805	lncRNA	-1	5	Heart, Pancreas, Liver, Spleen, Gonadal_adipose	-0.6227730559329689
+Male	ENSMUSG00000097705	Gm26740	DOWN	1	Mesenteric_adipose	-1.0712400445536632	lncRNA	1	5	Limb_muscle, Lung, Pancreas, Liver, Gonadal_adipose	0.619359796384177
+Male	ENSMUSG00000104291	A130071D04Rik	DOWN	1	Mesenteric_adipose	-0.8015741843115657	TEC	1	5	Limb_muscle, Small_intestine, Lung, Pancreas, Gonadal_adipose	0.6034787759640698
+Male	ENSMUSG00000105909	Gm43189	DOWN	1	Pancreas	-1.6992635808011307	lncRNA	-1	5	Marrow, Small_intestine, Heart, Pancreas, Liver	-0.657781008781272

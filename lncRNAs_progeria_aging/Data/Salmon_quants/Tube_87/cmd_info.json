@@ -1,0 +1,11 @@
+{
+    "salmon_version": "1.10.0",
+    "libType": "A",
+    "threads": "10",
+    "index": "/data/genomes/GRCm39_GENCODE/salmon_index",
+    "mates1": "star1",
+    "mates2": "star2",
+    "gcBias": [],
+    "output": "salmon_quants/Tube_87",
+    "auxDir": "aux_info"
+}

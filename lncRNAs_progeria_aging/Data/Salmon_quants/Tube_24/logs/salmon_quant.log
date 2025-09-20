@@ -1,0 +1,71 @@
+[2023-12-12 18:33:04.856] [jointLog] [info] setting maxHashResizeThreads to 10
+[2023-12-12 18:33:04.856] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2023-12-12 18:33:04.856] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2023-12-12 18:33:04.856] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2023-12-12 18:33:04.856] [jointLog] [info] parsing read library format
+[2023-12-12 18:33:04.856] [jointLog] [info] There is 1 library.
+[2023-12-12 18:33:04.856] [jointLog] [info] Loading pufferfish index
+[2023-12-12 18:33:04.856] [jointLog] [info] Loading dense pufferfish index.
+[2023-12-12 18:33:14.613] [jointLog] [info] done
+[2023-12-12 18:33:14.631] [jointLog] [info] Index contained 147,865 targets
+[2023-12-12 18:33:15.088] [jointLog] [info] Number of decoys : 61
+[2023-12-12 18:33:15.088] [jointLog] [info] First decoy index : 147,765 
+[2023-12-12 18:33:15.435] [jointLog] [info] Automatically detected most likely library type as ISR
+
+[2023-12-12 18:37:11.012] [jointLog] [info] Thread saw mini-batch with a maximum of 4.84% zero probability fragments
+[2023-12-12 18:37:11.012] [jointLog] [info] Thread saw mini-batch with a maximum of 4.72% zero probability fragments
+[2023-12-12 18:37:11.016] [jointLog] [info] Thread saw mini-batch with a maximum of 5.00% zero probability fragments
+[2023-12-12 18:37:11.044] [jointLog] [info] Thread saw mini-batch with a maximum of 4.82% zero probability fragments
+[2023-12-12 18:37:11.062] [jointLog] [info] Thread saw mini-batch with a maximum of 4.76% zero probability fragments
+[2023-12-12 18:37:11.067] [jointLog] [info] Thread saw mini-batch with a maximum of 4.78% zero probability fragments
+[2023-12-12 18:37:11.089] [jointLog] [info] Thread saw mini-batch with a maximum of 4.78% zero probability fragments
+[2023-12-12 18:37:11.105] [jointLog] [info] Thread saw mini-batch with a maximum of 4.86% zero probability fragments
+[2023-12-12 18:37:11.150] [jointLog] [info] Thread saw mini-batch with a maximum of 4.74% zero probability fragments
+[2023-12-12 18:37:11.189] [jointLog] [info] Thread saw mini-batch with a maximum of 4.86% zero probability fragments
+[2023-12-12 18:37:11.254] [jointLog] [info] Computed 252,562 rich equivalence classes for further processing
+[2023-12-12 18:37:11.254] [jointLog] [info] Counted 33,572,496 total reads in the equivalence classes 
+[2023-12-12 18:37:11.256] [jointLog] [info] Number of mappings discarded because of alignment score : 14,167,048
+[2023-12-12 18:37:11.256] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 3,557,470
+[2023-12-12 18:37:11.256] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 2,957,305
+[2023-12-12 18:37:11.256] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 150,383
+[2023-12-12 18:37:11.256] [jointLog] [info] Mapping rate = 73.9889%
+
+[2023-12-12 18:37:11.256] [jointLog] [info] finished quantifyLibrary()
+[2023-12-12 18:37:11.256] [jointLog] [info] Starting optimizer
+[2023-12-12 18:37:11.281] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2023-12-12 18:37:11.287] [jointLog] [info] iteration = 0 | max rel diff. = 7367.42
+[2023-12-12 18:37:11.342] [jointLog] [info] iteration 11, adjusting effective lengths to account for biases
+[2023-12-12 18:37:11.254] [fileLog] [info] 
+At end of round 0
+==================
+Observed 45375060 total fragments (45375060 in most recent round)
+
+[2023-12-12 18:37:17.566] [jointLog] [info] Computed expected counts (for bias correction)
+[2023-12-12 18:37:17.566] [jointLog] [info] processed bias for 0.0% of the transcripts
+[2023-12-12 18:37:18.101] [jointLog] [info] processed bias for 10.0% of the transcripts
+[2023-12-12 18:37:18.706] [jointLog] [info] processed bias for 20.0% of the transcripts
+[2023-12-12 18:37:19.319] [jointLog] [info] processed bias for 30.0% of the transcripts
+[2023-12-12 18:37:19.880] [jointLog] [info] processed bias for 40.0% of the transcripts
+[2023-12-12 18:37:20.448] [jointLog] [info] processed bias for 50.0% of the transcripts
+[2023-12-12 18:37:21.052] [jointLog] [info] processed bias for 60.0% of the transcripts
+[2023-12-12 18:37:21.626] [jointLog] [info] processed bias for 70.0% of the transcripts
+[2023-12-12 18:37:22.186] [jointLog] [info] processed bias for 80.0% of the transcripts
+[2023-12-12 18:37:22.689] [jointLog] [info] processed bias for 90.0% of the transcripts
+[2023-12-12 18:37:23.255] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2023-12-12 18:37:23.748] [jointLog] [info] iteration = 100 | max rel diff. = 13.5068
+[2023-12-12 18:37:24.293] [jointLog] [info] iteration = 200 | max rel diff. = 4.45334
+[2023-12-12 18:37:24.842] [jointLog] [info] iteration = 300 | max rel diff. = 9.92659
+[2023-12-12 18:37:25.392] [jointLog] [info] iteration = 400 | max rel diff. = 0.116929
+[2023-12-12 18:37:25.940] [jointLog] [info] iteration = 500 | max rel diff. = 0.0825721
+[2023-12-12 18:37:26.484] [jointLog] [info] iteration = 600 | max rel diff. = 0.170564
+[2023-12-12 18:37:27.027] [jointLog] [info] iteration = 700 | max rel diff. = 0.357271
+[2023-12-12 18:37:27.569] [jointLog] [info] iteration = 800 | max rel diff. = 0.0185797
+[2023-12-12 18:37:28.111] [jointLog] [info] iteration = 900 | max rel diff. = 0.0584123
+[2023-12-12 18:37:28.654] [jointLog] [info] iteration = 1,000 | max rel diff. = 0.0474708
+[2023-12-12 18:37:29.198] [jointLog] [info] iteration = 1,100 | max rel diff. = 0.0120928
+[2023-12-12 18:37:29.747] [jointLog] [info] iteration = 1,200 | max rel diff. = 0.0259638
+[2023-12-12 18:37:30.290] [jointLog] [info] iteration = 1,300 | max rel diff. = 0.0124109
+[2023-12-12 18:37:30.594] [jointLog] [info] iteration = 1,357 | max rel diff. = 0.0087767
+[2023-12-12 18:37:30.599] [jointLog] [info] Finished optimizer
+[2023-12-12 18:37:30.599] [jointLog] [info] writing output 
+

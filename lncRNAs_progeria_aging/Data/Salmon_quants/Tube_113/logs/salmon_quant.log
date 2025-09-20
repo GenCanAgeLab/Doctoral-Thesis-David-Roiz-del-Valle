@@ -1,0 +1,71 @@
+[2023-12-12 16:50:46.323] [jointLog] [info] setting maxHashResizeThreads to 10
+[2023-12-12 16:50:46.323] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2023-12-12 16:50:46.323] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2023-12-12 16:50:46.323] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2023-12-12 16:50:46.323] [jointLog] [info] parsing read library format
+[2023-12-12 16:50:46.323] [jointLog] [info] There is 1 library.
+[2023-12-12 16:50:46.323] [jointLog] [info] Loading pufferfish index
+[2023-12-12 16:50:46.323] [jointLog] [info] Loading dense pufferfish index.
+[2023-12-12 16:50:56.014] [jointLog] [info] done
+[2023-12-12 16:50:56.032] [jointLog] [info] Index contained 147,865 targets
+[2023-12-12 16:50:56.481] [jointLog] [info] Number of decoys : 61
+[2023-12-12 16:50:56.481] [jointLog] [info] First decoy index : 147,765 
+[2023-12-12 16:50:56.781] [jointLog] [info] Automatically detected most likely library type as ISR
+
+[2023-12-12 16:54:46.107] [jointLog] [info] Thread saw mini-batch with a maximum of 5.80% zero probability fragments
+[2023-12-12 16:54:46.108] [jointLog] [info] Thread saw mini-batch with a maximum of 5.80% zero probability fragments
+[2023-12-12 16:54:46.108] [jointLog] [info] Thread saw mini-batch with a maximum of 5.88% zero probability fragments
+[2023-12-12 16:54:46.108] [jointLog] [info] Thread saw mini-batch with a maximum of 5.76% zero probability fragments
+[2023-12-12 16:54:46.108] [jointLog] [info] Thread saw mini-batch with a maximum of 5.66% zero probability fragments
+[2023-12-12 16:54:46.143] [jointLog] [info] Thread saw mini-batch with a maximum of 5.86% zero probability fragments
+[2023-12-12 16:54:46.185] [jointLog] [info] Thread saw mini-batch with a maximum of 5.82% zero probability fragments
+[2023-12-12 16:54:46.198] [jointLog] [info] Thread saw mini-batch with a maximum of 5.82% zero probability fragments
+[2023-12-12 16:54:46.206] [jointLog] [info] Thread saw mini-batch with a maximum of 6.08% zero probability fragments
+[2023-12-12 16:54:46.224] [jointLog] [info] Thread saw mini-batch with a maximum of 5.76% zero probability fragments
+[2023-12-12 16:54:46.288] [jointLog] [info] Computed 241,612 rich equivalence classes for further processing
+[2023-12-12 16:54:46.288] [jointLog] [info] Counted 37,714,673 total reads in the equivalence classes 
+[2023-12-12 16:54:46.291] [jointLog] [info] Number of mappings discarded because of alignment score : 18,494,999
+[2023-12-12 16:54:46.291] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 3,551,480
+[2023-12-12 16:54:46.291] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 2,967,478
+[2023-12-12 16:54:46.291] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 190,110
+[2023-12-12 16:54:46.291] [jointLog] [info] Mapping rate = 78.8951%
+
+[2023-12-12 16:54:46.291] [jointLog] [info] finished quantifyLibrary()
+[2023-12-12 16:54:46.291] [jointLog] [info] Starting optimizer
+[2023-12-12 16:54:46.316] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2023-12-12 16:54:46.321] [jointLog] [info] iteration = 0 | max rel diff. = 6260.39
+[2023-12-12 16:54:46.376] [jointLog] [info] iteration 11, adjusting effective lengths to account for biases
+[2023-12-12 16:54:46.288] [fileLog] [info] 
+At end of round 0
+==================
+Observed 47803548 total fragments (47803548 in most recent round)
+
+[2023-12-12 16:54:51.992] [jointLog] [info] Computed expected counts (for bias correction)
+[2023-12-12 16:54:51.992] [jointLog] [info] processed bias for 0.0% of the transcripts
+[2023-12-12 16:54:52.475] [jointLog] [info] processed bias for 10.0% of the transcripts
+[2023-12-12 16:54:52.970] [jointLog] [info] processed bias for 20.0% of the transcripts
+[2023-12-12 16:54:53.496] [jointLog] [info] processed bias for 30.0% of the transcripts
+[2023-12-12 16:54:54.028] [jointLog] [info] processed bias for 40.0% of the transcripts
+[2023-12-12 16:54:54.555] [jointLog] [info] processed bias for 50.0% of the transcripts
+[2023-12-12 16:54:55.057] [jointLog] [info] processed bias for 60.0% of the transcripts
+[2023-12-12 16:54:55.604] [jointLog] [info] processed bias for 70.0% of the transcripts
+[2023-12-12 16:54:56.135] [jointLog] [info] processed bias for 80.0% of the transcripts
+[2023-12-12 16:54:56.610] [jointLog] [info] processed bias for 90.0% of the transcripts
+[2023-12-12 16:54:57.176] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2023-12-12 16:54:57.176] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2023-12-12 16:54:57.681] [jointLog] [info] iteration = 100 | max rel diff. = 6.57081
+[2023-12-12 16:54:58.227] [jointLog] [info] iteration = 200 | max rel diff. = 1.90234
+[2023-12-12 16:54:58.770] [jointLog] [info] iteration = 300 | max rel diff. = 10.7108
+[2023-12-12 16:54:59.314] [jointLog] [info] iteration = 400 | max rel diff. = 1.3057
+[2023-12-12 16:54:59.860] [jointLog] [info] iteration = 500 | max rel diff. = 0.376767
+[2023-12-12 16:55:00.404] [jointLog] [info] iteration = 600 | max rel diff. = 0.126869
+[2023-12-12 16:55:00.946] [jointLog] [info] iteration = 700 | max rel diff. = 0.0371733
+[2023-12-12 16:55:01.490] [jointLog] [info] iteration = 800 | max rel diff. = 0.198506
+[2023-12-12 16:55:02.033] [jointLog] [info] iteration = 900 | max rel diff. = 0.172405
+[2023-12-12 16:55:02.576] [jointLog] [info] iteration = 1,000 | max rel diff. = 0.0327434
+[2023-12-12 16:55:03.120] [jointLog] [info] iteration = 1,100 | max rel diff. = 0.0178408
+[2023-12-12 16:55:03.662] [jointLog] [info] iteration = 1,200 | max rel diff. = 0.0307219
+[2023-12-12 16:55:03.856] [jointLog] [info] iteration = 1,236 | max rel diff. = 0.00810604
+[2023-12-12 16:55:03.862] [jointLog] [info] Finished optimizer
+[2023-12-12 16:55:03.862] [jointLog] [info] writing output 
+

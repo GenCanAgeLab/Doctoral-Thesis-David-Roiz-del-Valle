@@ -1,0 +1,22 @@
+{
+    "read_files": "[ star1, star2]",
+    "expected_format": "ISR",
+    "compatible_fragment_ratio": 1.0,
+    "num_compatible_fragments": 40185479,
+    "num_assigned_fragments": 40185479,
+    "num_frags_with_concordant_consistent_mappings": 39569396,
+    "num_frags_with_inconsistent_or_orphan_mappings": 665039,
+    "strand_mapping_bias": 0.000050238323734140818,
+    "MSF": 0,
+    "OSF": 0,
+    "ISF": 1988,
+    "MSR": 0,
+    "OSR": 0,
+    "ISR": 39569396,
+    "SF": 299226,
+    "SR": 363825,
+    "MU": 0,
+    "OU": 0,
+    "IU": 0,
+    "U": 0
+}

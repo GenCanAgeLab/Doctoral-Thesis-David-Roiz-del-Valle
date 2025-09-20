@@ -1,0 +1,88 @@
+---
+title: "Summary of DE analysis"
+author: "David Roiz del Valle"
+format:
+  html:
+    toc: true
+    code-fold: true
+    embed-resources: true
+editor: visual
+knitr:
+  opts_chunk:
+    message: false
+    warning: false
+---
+
+```{r}
+library(DESeq2)
+library(ggrepel)
+library(RColorBrewer)
+library(pheatmap)
+library(dplyr)
+library(ggplot2)
+```
+
+```{r}
+gene_vsd <- readRDS("Data/vsd.rds")
+shrinkedRes <- readRDS("Data/res_shrinked.rds")
+```
+
+# Diagnostic plots
+
+## PCA plot
+
+```{r}
+plotPCA(gene_vsd,intgroup = "Genotype") +
+  geom_label_repel(aes(label=name)) +
+  theme_classic()
+```
+
+## Heatmap
+
+```{r}
+sampleDists <- dist(t(assay(gene_vsd)))
+
+
+sampleDistMatrix <- as.matrix(sampleDists) # Creamos la matriz de distancias a partir de los datos de distancias
+rownames(sampleDistMatrix) <- paste(colnames(gene_vsd), gene_vsd$Genotype, sep="-") # Denominamos a cada fila como muestra-genotipo-dieta
+colnames(sampleDistMatrix) <- NULL # Dejamos a las columnas sin nombre
+colors <- colorRampPalette( rev(brewer.pal(9, "Blues")) )(255) # Gama de colores negro
+
+
+pheatmap(sampleDistMatrix,
+         clustering_distance_rows=sampleDists,
+         clustering_distance_cols=sampleDists,
+         col=colors)
+```
+
+# Results plots
+
+```{r}
+plotMA <- function(shrinkedRes) {
+  shrinkedRes <- shrinkedRes |>
+    mutate(signif = if_else(padj < 0.05, TRUE, FALSE, missing = FALSE))
+  
+  ggplot(
+    shrinkedRes,
+    aes(
+      x = log2(baseMean),
+      y = log2FoldChange,
+      color = signif,
+      label = gene_name
+    )
+  ) +
+    geom_point(shape = 16) +
+    geom_label_repel(
+      data = shrinkedRes |>
+        filter(padj < 0.05) |>
+        slice_min(padj, n = 10) |>
+        ungroup(),
+      max.overlaps = Inf
+    ) +
+    scale_color_manual(values = c("grey", "black")) +
+    labs(x = " log2 mean reads", y = "log2FC") +
+    theme_bw()
+}
+
+plotMA(shrinkedRes)
+```

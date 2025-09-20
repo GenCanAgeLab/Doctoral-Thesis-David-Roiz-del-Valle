@@ -1,0 +1,121 @@
+SampleID	MouseNo	Genotype	Gender	Tissue	DAB	Notes	Infered_Genotype
+1	Tube_1	989	KO	Female	Ileon	153		KO
+2	Tube_2	991	KO	Female	Ileon	153		KO
+3	Tube_3	992	KO	Female	Ileon	153		KO
+4	Tube_4	993	KO	Female	Ileon	153		KO
+5	Tube_5	111	KO	Female	Ileon	155		KO
+6	Tube_6	682	KO	Male	Ileon	150		KO
+7	Tube_7	684	KO	Male	Ileon	150		KO
+8	Tube_8	745	KO	Male	Ileon	157		KO
+9	Tube_9	912	KO	Male	Ileon	150		KO
+10	Tube_10	913	KO	Male	Ileon	150		KO
+11	Tube_11	156	WT	Female	Ileon	147		WT
+12	Tube_12	157	WT	Female	Ileon	147		WT
+13	Tube_13	158	WT	Female	Ileon	147		WT
+14	Tube_14	181	WT	Female	Ileon	144		WT
+15	Tube_15	182	WT	Female	Ileon	144	Se uso toda la muestra	WT
+16	Tube_16	178	WT	Male	Ileon	144		WT
+17	Tube_17	235	WT	Male	Ileon	147		WT
+18	Tube_18	252	WT	Male	Ileon	141		WT
+19	Tube_19	322	WT	Male	Ileon	147		WT
+20	Tube_20	385	WT	Male	Ileon	141		WT
+21	Tube_21	989	KO	Female	Kidney	153		KO
+22	Tube_22	991	KO	Female	Kidney	153		KO
+23	Tube_23	992	KO	Female	Kidney	153		KO
+24	Tube_24	993	KO	Female	Kidney	153		KO
+25	Tube_25	111	KO	Female	Kidney	155		KO
+26	Tube_26	682	KO	Male	Kidney	150		KO
+27	Tube_27	684	KO	Male	Kidney	150		KO
+28	Tube_28	745	KO	Male	Kidney	157		KO
+29	Tube_29	912	KO	Male	Kidney	150		KO
+30	Tube_30	913	KO	Male	Kidney	150		KO
+31	Tube_31	156	WT	Female	Kidney	147		WT
+32	Tube_32	157	WT	Female	Kidney	147		WT
+33	Tube_33	158	WT	Female	Kidney	147		WT
+34	Tube_34	181	WT	Female	Kidney	144		WT
+35	Tube_35	182	WT	Female	Kidney	144		WT
+36	Tube_36	178	WT	Male	Kidney	144		WT
+37	Tube_37	235	WT	Male	Kidney	147		WT
+38	Tube_38	252	WT	Male	Kidney	141		WT
+39	Tube_39	322	WT	Male	Kidney	147		WT
+40	Tube_40	385	WT	Male	Kidney	141		WT
+41	Tube_41	989	KO	Female	Muscle	153		KO
+42	Tube_42	991	KO	Female	Muscle	153		KO
+43	Tube_43	992	KO	Female	Muscle	153		KO
+44	Tube_44	993	KO	Female	Muscle	153		KO
+45	Tube_45	111	KO	Female	Muscle	155		KO
+46	Tube_46	682	KO	Male	Muscle	150		KO
+47	Tube_47	684	KO	Male	Muscle	150		KO
+48	Tube_48	745	KO	Male	Muscle	157		KO
+49	Tube_49	912	KO	Male	Muscle	150		KO
+50	Tube_50	913	KO	Male	Muscle	150		KO
+51	Tube_51	156	WT	Female	Muscle	147		WT
+52	Tube_52	157	WT	Female	Muscle	147		WT
+53	Tube_53	158	WT	Female	Muscle	147		WT
+54	Tube_54	181	WT	Female	Muscle	144		WT
+55	Tube_55	182	WT	Female	Muscle	144		WT
+56	Tube_56	178	WT	Male	Muscle	144		WT
+57	Tube_57	235	WT	Male	Muscle	147		WT
+58	Tube_58	252	WT	Male	Muscle	141		WT
+59	Tube_59	322	WT	Male	Muscle	147		WT
+60	Tube_60	385	WT	Male	Muscle	141		WT
+61	Tube_61	989	KO	Female	Liver	153		KO
+62	Tube_62	991	KO	Female	Liver	153	El tubo pone macho	KO
+63	Tube_63	992	KO	Female	Liver	153		KO
+64	Tube_64	993	KO	Female	Liver	153		KO
+65	Tube_65	111	KO	Female	Liver	155		KO
+66	Tube_66	682	KO	Male	Liver	150		KO
+67	Tube_67	684	KO	Male	Liver	150		KO
+68	Tube_68	745	KO	Male	Liver	157		KO
+69	Tube_69	912	KO	Male	Liver	150		KO
+70	Tube_70	913	KO	Male	Liver	150		KO
+71	Tube_71	156	WT	Female	Liver	147		WT
+72	Tube_72	157	WT	Female	Liver	147		WT
+73	Tube_73	158	WT	Female	Liver	147		WT
+74	Tube_74	181	WT	Female	Liver	144		WT
+75	Tube_75	182	WT	Female	Liver	144		WT
+76	Tube_76	178	WT	Male	Liver	144		WT
+77	Tube_77	235	WT	Male	Liver	147		WT
+78	Tube_78	252	WT	Male	Liver	141		WT
+79	Tube_79	322	WT	Male	Liver	147		WT
+80	Tube_80	385	WT	Male	Liver	141		WT
+81	Tube_81	989	KO	Female	Colon	153		KO
+82	Tube_82	991	KO	Female	Colon	153		KO
+83	Tube_83	992	KO	Female	Colon	153		KO
+84	Tube_84	993	KO	Female	Colon	153		KO
+85	Tube_85	111	KO	Female	Colon	155		KO
+86	Tube_86	682	KO	Male	Colon	150	Se uso toda la muestra	KO
+87	Tube_87	684	KO	Male	Colon	150		KO
+88	Tube_88	745	KO	Male	Colon	157		KO
+89	Tube_89	912	KO	Male	Colon	150		KO
+90	Tube_90	913	WT	Male	Colon	150		KO
+91	Tube_91	156	WT	Female	Colon	147		WT
+92	Tube_92	157	WT	Female	Colon	147		WT
+93	Tube_93	158	WT	Female	Colon	147		WT
+94	Tube_94	181	WT	Female	Colon	144		WT
+95	Tube_95	182	WT	Female	Colon	144		WT
+96	Tube_96	178	WT	Male	Colon	144	Los tubos de Colon y Liver tienen la rotulacion intercambiada	WT
+97	Tube_97	235	WT	Male	Colon	147		WT
+98	Tube_98	252	WT	Male	Colon	141		WT
+99	Tube_99	322	WT	Male	Colon	147		WT
+100	Tube_100	385	WT	Male	Colon	141		WT
+101	Tube_101	991	KO	Female	Heart	153		HT
+102	Tube_102	993	KO	Female	Heart	153		KO
+103	Tube_103	153	KO	Female	Heart	145	Ratones Laki G609G del experimento de Laki-NR	KO
+104	Tube_104	183	KO	Female	Heart	142	Ratones Laki G609G del experimento de Laki-NR	KO
+105	Tube_105	682	KO	Male	Heart	150		KO
+106	Tube_106	912	KO	Male	Heart	150		KO
+107	Tube_107	141	KO	Male	Heart	145	Ratones Laki G609G del experimento de Laki-NR	KO
+108	Tube_108	142	KO	Male	Heart	145	Ratones Laki G609G del experimento de Laki-NR	KO
+109	Tube_109	158	WT	Female	Heart	147		WT
+110	Tube_110	182	WT	Female	Heart	144		WT
+111	Tube_111	247	WT	Female	Heart	170	Hembra WT. control del xperimento Facee-Niacina. 170 dias 	WT
+112	Tube_112	252	WT	Male	Heart	147		WT
+113	Tube_113	322	WT	Male	Heart	147		WT
+114	Tube_114	385	WT	Male	Heart	141		WT
+115	Tube_115	271	KO	Male	ileon	150	Ratones de Face-NR	WT
+116	Tube_116	272	KO	Male	ileon	150	Ratones de Face-NR	WT
+117	Tube_117	273	KO	Male	ileon	150	Ratones de Face-NR	WT
+118	Tube_118	260	KO-NR	Male	ileon	151	Ratones de Face-NR	WT
+119	Tube_119	261	KO-NR	Male	ileon	151	Ratones de Face-NR	WT
+120	Tube_120	262	KO-NR	Male	ileon	151	Ratones de Face-NR	WT

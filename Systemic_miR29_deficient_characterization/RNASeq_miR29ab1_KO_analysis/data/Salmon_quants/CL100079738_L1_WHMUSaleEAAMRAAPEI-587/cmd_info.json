@@ -1,0 +1,11 @@
+{
+    "salmon_version": "1.10.3",
+    "libType": "ISR",
+    "threads": "15",
+    "index": "/data/genomes/GRCm39_GENCODE/salmon_index_M32/",
+    "mates1": "/data/miR29/20180518_RNASeq_Liver_Heart_miR29AB_BC/data/CL100079738_L1_WHMUSaleEAAMRAAPEI-587_1.fq.gz",
+    "mates2": "/data/miR29/20180518_RNASeq_Liver_Heart_miR29AB_BC/data/CL100079738_L1_WHMUSaleEAAMRAAPEI-587_2.fq.gz",
+    "gcBias": [],
+    "output": "data/Salmon_quants/CL100079738_L1_WHMUSaleEAAMRAAPEI-587",
+    "auxDir": "aux_info"
+}

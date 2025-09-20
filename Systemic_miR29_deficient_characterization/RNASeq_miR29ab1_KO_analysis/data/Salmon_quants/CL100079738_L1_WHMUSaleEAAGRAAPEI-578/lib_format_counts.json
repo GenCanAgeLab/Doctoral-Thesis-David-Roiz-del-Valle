@@ -1,0 +1,22 @@
+{
+    "read_files": "[ /data/miR29/20180518_RNASeq_Liver_Heart_miR29AB_BC/data/CL100079738_L1_WHMUSaleEAAGRAAPEI-578_1.fq.gz, /data/miR29/20180518_RNASeq_Liver_Heart_miR29AB_BC/data/CL100079738_L1_WHMUSaleEAAGRAAPEI-578_2.fq.gz]",
+    "expected_format": "ISR",
+    "compatible_fragment_ratio": 1.0,
+    "num_compatible_fragments": 21123999,
+    "num_assigned_fragments": 21123999,
+    "num_frags_with_concordant_consistent_mappings": 20048411,
+    "num_frags_with_inconsistent_or_orphan_mappings": 1199474,
+    "strand_mapping_bias": 0.0,
+    "MSF": 0,
+    "OSF": 0,
+    "ISF": 0,
+    "MSR": 0,
+    "OSR": 0,
+    "ISR": 20048411,
+    "SF": 703665,
+    "SR": 495809,
+    "MU": 0,
+    "OU": 0,
+    "IU": 0,
+    "U": 0
+}

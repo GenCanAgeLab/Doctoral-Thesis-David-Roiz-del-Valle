@@ -1,0 +1,22 @@
+{
+    "read_files": "[ A958_s1, A958_s2]",
+    "expected_format": "ISR",
+    "compatible_fragment_ratio": 1.0,
+    "num_compatible_fragments": 22050544,
+    "num_assigned_fragments": 22050544,
+    "num_frags_with_concordant_consistent_mappings": 21519173,
+    "num_frags_with_inconsistent_or_orphan_mappings": 568530,
+    "strand_mapping_bias": 0.0,
+    "MSF": 0,
+    "OSF": 0,
+    "ISF": 0,
+    "MSR": 0,
+    "OSR": 0,
+    "ISR": 21519173,
+    "SF": 314869,
+    "SR": 253661,
+    "MU": 0,
+    "OU": 0,
+    "IU": 0,
+    "U": 0
+}

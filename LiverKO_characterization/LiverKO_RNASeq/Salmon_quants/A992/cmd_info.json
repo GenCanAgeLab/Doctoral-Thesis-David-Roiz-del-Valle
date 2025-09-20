@@ -1,0 +1,11 @@
+{
+    "salmon_version": "1.10.3",
+    "libType": "ISR",
+    "threads": "15",
+    "index": "/data/genomes/GRCm39_GENCODE/salmon_index_M32/",
+    "mates1": "A992_s1",
+    "mates2": "A992_s2",
+    "gcBias": [],
+    "output": "Salmon_quants/A992",
+    "auxDir": "aux_info"
+}
